@@ -144,7 +144,7 @@
     };
     Dictionary<char,int> letterState = new Dictionary<char, int>();
 
-    private string WordleJSUrl = "/_content/WordleRazorClassLibrary/js/Wordle.js";
+    private string WordleJSUrl = "/_content/BlazorWordle/js/Wordle.js";
     IJSObjectReference jsWordleModule;
     (string Title, string Message, string[] Statistics, string TextToShare, string GameUrl, string Solution) FinalResult;
 
@@ -158,8 +158,8 @@
     {
         jsWordleModule = await JSRuntime.InvokeAsync<IJSObjectReference>("import", WordleJSUrl);
 
-        words = await Http.GetFromJsonAsync<string[]>("/_content/WordleRazorClassLibrary/words.json");
-        problems = await Http.GetFromJsonAsync<string[]>("/_content/WordleRazorClassLibrary/problems.json");
+        words = await Http.GetFromJsonAsync<string[]>("/_content/BlazorWordle/words.json");
+        problems = await Http.GetFromJsonAsync<string[]>("/_content/BlazorWordle/problems.json");
 
         ResetGame(Key);
 
