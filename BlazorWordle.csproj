@@ -7,9 +7,10 @@
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <RepositoryUrl>https://github.com/roman015-com/BlazorWordle</RepositoryUrl>
     <PackageProjectUrl>https://github.com/roman015-com/BlazorWordle</PackageProjectUrl>
-    <PackageReleaseNotes>Added Nuget Build</PackageReleaseNotes>
+    <PackageReleaseNotes>Fixed Typos</PackageReleaseNotes>
     <Description>Simple Blazor package implementing Wordle Game in a page</Description>
     <PackageLicenseFile></PackageLicenseFile>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
 
