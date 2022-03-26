@@ -8,11 +8,11 @@
     <RepositoryUrl>https://github.com/roman015-com/RazorWordle</RepositoryUrl>
     <PackageProjectUrl>https://github.com/roman015-com/RazorWordle</PackageProjectUrl>
     <PackageReleaseNotes>Fixed Typos</PackageReleaseNotes>
-    <Description>Simple Blazor package implementing Wordle Game in a page</Description>
+    <Description>Simple Razor package implementing Wordle Game in a page. </Description>
     <PackageLicenseFile></PackageLicenseFile>
-    <Version>1.0.1</Version>
-    <FileVersion>1.0.2</FileVersion>
-    <AssemblyVersion>1.0.2</AssemblyVersion>
+    <Version>1.0.3</Version>
+    <FileVersion></FileVersion>
+    <AssemblyVersion></AssemblyVersion>
   </PropertyGroup>
 
 
